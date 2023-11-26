@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Help page</title>
+    <link rel="stylesheet" href="help1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="text">Need Some Help?</div>
+        <form action="/ahelp" method="post">
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text" name="f_name" required>
+                    <div class="underline"></div>
+                    <label>First Name</label>
+                </div>
+                <div class="input-data">
+                    <input type="text"  name="l_name" required>
+                    <div class="underline"></div>
+                    <label for="">Last Name</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="email" name="email" required>
+                    <div class="underline"></div>
+                    <label for="">Email Address</label>
+                </div>
+                <div class="input-data">
+                    <input type="number" name="mob" required>
+                    <div class="underline"></div>
+                    <label for="">Mobile Number</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="input-data textarea">
+                    <textarea rows="8" cols="80" name="msg" required></textarea>
+                    <br />
+                    <div class="underline"></div>
+                    <label for="">Write your message</label>
+                    <br />
+                    <div class="form-row submit-btn">
+                        <div class="input-data">
+                            <div class="inner"></div>
+                            <input type="submit" value="submit">
+                        </div>
+                        <a id=goto href="/">Go to Home Page</a></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

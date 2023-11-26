@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="applyjob.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".sp1").click(function () {
+            var s = $(this).attr("id").substring($(this).attr('id').lastIndexOf('p')  + 1);
+            $("#hdnstar").val(s);
+            for(var i =1; i<= 5; i++){
+                if (i <= s) {
+                    $("#sp" + i).removeClass("fa fa-star-o").addClass("fa fa-star");
+            }
+            else
+            {
+                $("#sp" + i).addClass("fa fa-star-o");
+            }
+        }
+           })
+        })
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="row" style="height: 7vh;"></div>
+    <div class="row">
+
+        <div class="col-md-4"></div>
+            <div class="col-md-5 apply">
+                <form action="/userreview" method="post">
+                <center>
+                    <h2>Give your Review</h2>
+                </center>
+                <hr>
+                <label>Name :</label>
+                <br>
+                <input type="text" name="name">
+                <br><br>
+                <label>Rating :</label>
+                <input type="hidden" id="hdnstar" name="hdnstar" />
+                <br>
+                
+               
+                <span class="fa fa-star-o sp1"  id="sp1" style="font-size:50px;color:red;padding-left:25px;"></span>
+                <span class="fa fa-star-o sp1"  id="sp2" style="font-size:50px;color:red;margin:10px"></span>
+                <span class="fa fa-star-o sp1"  id="sp3" style="font-size:50px;color:red"></span>
+                <span class="fa fa-star-o sp1"  id="sp4" style="font-size:50px;color:red;margin:10px"></span>
+                <span class="fa fa-star-o sp1"  id="sp5" style="font-size:50px;color:red"></span>
+                <br><br>
+                <label>Mobile Number :</label>
+                <br>
+                <input type="number" name="mob">
+                <br><br>
+                <button>Apply</button>
+            </form>
+            </div>
+        <div class="col-md-3"></div>
+
+    </div>
+</div>
+    
+</body>
+</html>

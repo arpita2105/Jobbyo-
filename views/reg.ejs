@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="dash1.css">
+        <link href="registration.css" rel="stylesheet">
+       
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="opacity: 0.8; overflow: hidden;">
+        <div class="container-fluid">
+            <img src="images/jobbylogooo.png" style="height: 80px;width: 200px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsenavbar"  style="padding-left:250px">
+                <ul class="navbar-nav" style="float: right; margin-left: 360px;padding: 0px;">
+                    <li><a style=" font-size: 1.2rem; padding: 10px;color: white;" href="/" class="nav-link">Home</a></li>
+                    <li><a style=" font-size: 1.2rem; padding: 10px;color: white;" href="/about" class="nav-link">About Us</a></li>
+                    <!-- <li><a style=" font-size: 1.8rem;padding: 10px;color: white;" href="" class="nav-link">Contact Us</a></li> -->
+                    <li><a style=" font-size: 1.2rem; padding: 10px;color: white;" href="/job" class="nav-link">Jobs</a></li>
+                    <li><a style=" font-size: 1.2rem; padding: 10px;color: white;" href="/help" class="nav-link">Help</a></li>
+                    <li><a style="font-size:1.2rem; padding: 10px;color: white;" href="/registration" class="nav-link">Register</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="background-image:url('images/zKYG1E.webp'); background-repeat: no-repeat;background-size: cover">
+    <div class="container-fluid">
+       
+        <div class="row" >
+            <h1 style="color:aliceblue;margin-left:600px">Register Here...</h1> 
+            <div class="container">
+         <form action="/myreg" method="post" enctype="multipart/form-data">
+             <div class="row">
+                 <div class="col-md-3">
+                     <label>Name :</label>
+                 </div>
+                 <div class="col-md-5">
+                     <input type="text" placeholder="First Name" name="f_name" required>
+                 </div>
+                 <div class="col-md-4">
+                     <input type="text" placeholder="Last Name" name="l_name" required>
+                 </div>
+             </div><br>
+             <div class="row">
+                 <div class="col-md-3">
+                     <label>E-mail :</label>
+                 </div>
+                 <div class="col-md-9">
+                     <input type="text" placeholder="abc@gmail.com" name="email" required>
+                 </div>
+             </div><br>
+             <div class="row">
+                 <div class="col-md-3">
+                     <label>Contact No. :</label>
+                 </div>
+                 <div class="col-md-9">
+                     <input type="number" placeholder="945******" name="c_no" required>
+                 </div>
+             </div><hr>
+         <div class="row">
+             <div class="col-md-12">
+                     <label><b>Address -</b></label>
+                 </div></div>
+         
+         <div class="row">
+             <div class="col-md-3">
+                 <label>Street :</label>
+             </div>
+             <div class="col-md-9">
+                 <input type="text" placeholder="Address Line" name="strt" required>
+             </div>
+         </div><br>
+         <div class="row">
+             <div class="col-md-3">
+                 <label>City :</label>
+             </div>
+             <div class="col-md-4">
+                 <input type="text" placeholder="City" name="city" required>
+             </div>
+             <div class="col-md-1">
+                 <label>State :</label>
+             </div>
+             <div class="col-md-4" style="float:left">
+                 <input type="text" placeholder="State" name="state" required>
+             </div>
+         </div><hr>
+         <div class="row">
+             <div class="col-md-3">
+                 <label>Qualification :</label>
+             </div>
+             <div class="col-md-9">
+                 <select name="quali">
+                     <option>---Select---</option>
+                     <option>Intermediate</option>
+                     <option>Diploma</option>
+                     <option>Graduation</option>
+                 </select>
+             </div>
+         </div><br>
+         <div class="row">
+             <div class="col-md-3">
+         <label>Gender :</label>
+             </div>
+             <div class="col-md-9">
+              <input type="radio" name="gnd"> Male &nbsp;
+           <input type="radio" name="gnd"> Female   &nbsp;
+             <input type="radio" name="gnd"> Others
+             </div>
+         </div><br>
+         <div class="row">
+             <div class="col-md-3">
+                 <label> Chose Password</label>
+             </div>
+             <div class="col-md-9">
+                 <input type="password" placeholder="fvh35@g#4*" name="chs_pwd" required>
+             </div>
+         </div><br>
+         <div class="row">
+             <div class="col-md-3">
+                 <label>Upload Resume/CV here</label>
+             </div>
+             <div class="col-md-9">
+                 <input type="file" name="rescv" required>
+             </div>
+         </div><center><br><br>
+         <div class="row">
+             <div class="col-md-3"></div>
+             <div class="col-md-3">
+                 <input id="submit" type="submit" value="REGISTER NOW">
+             </div>
+             <div class="col-md-3">
+                 <input id="reset" type="reset" value="RESET NOW">
+             </div>
+         </div>
+         <div class="col-md-3"></div>
+         </center>
+         </form>
+            </div>
+        </div> 
+        </div>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" style="min-height: 50px;color: white; background-color: black;">
+          <h5 style="margin-top: 15px; font-size: 1rem;">&copy;copyrightwww.jobbiyo.com</h5>
+
+    </body>
+</html>

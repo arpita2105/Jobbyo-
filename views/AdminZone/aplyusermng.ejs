@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="dash1.css">
+        <link href="registration.css" rel="stylesheet">
+       
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row admin">
+            ADMIN ZONE
+            </div></div>
+    <div class="container-fluid" style="background-color:#36a1a1;">
+        <div class="row" style="min-height:520px;">
+            <div class="col-md-2"  style="font: size 10px"><br>
+               <center> <span class="fa fa-user-circle-o" style="font-size:67px;"></span><br><b>Admin</b></center>
+                    <span class="fa fa-dashboard">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/dashboard">Dashboard</a></b></span> <br><br>
+                    <span class="fa fa-question-circle">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/enqmng">Enquiry Management</a></b></span><br><br>
+                    <span class="fa fa-user">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/usermng">User Management</a></b></span><br><br>
+                    <span class="fa fa-plus">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/aplyusermng">Apply User Management</a></b></span><br><br>
+                    <span class="fa fa-plus">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/addjob">Add Job</a></b></span><br><br>
+                   
+                    <span class=" fa fa-solid fa-briefcase">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/jobmng">Job Management</a></b></span><br><br>
+                    <span class="fa fa-key">&nbsp;<b style="font-size: 0.9rem;"><a class="dashline" href="/password">Change Password</a></b></span><br><br>
+                    <span class="fa fa-sign-out">&nbsp;<b style="font-size: 0.9rem;">
+                        <a class="dashline" href="/logout">Logout</a>
+                        </b></span>
+            </div>
+           <div class="col-md-1"></div>
+            <div class="col-md-9"><br>
+                    <center><h1> <% title %> </h1></center>
+                    <table class="table table-responsive" style="background:white;padding: 1%;">
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>Name</th>
+                            <th>Job Title</th>
+                            <th>Email</th>
+                            <th>Mobile Number</th>
+                           
+                        </tr>
+                        <% for(var i=0;i<data.length;i++) 
+                        {
+                        %>
+                       <tr>
+                        <td> <%= (i+1) %> </td>
+                        <td> <%= data[i].name %> </td>
+                        <td> <%= data[i].jbttl %> </td>
+                        <td> <%= data[i].email_add %> </td>
+                        <td> <%= data[i].mob %> </td>
+                       
+                       </tr>
+                        <% } %>
+                    </table>
+           </div>
+        </div>
+    
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" style="min-height: 50px;color: white; background-color: black;">
+          <h5 style="margin-top: 15px; font-size:1rem;">&copy;copyrightwww.jobbiyo.com</h5>
+      </div>
+      </div>
+  </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+}
+
+.admin{
+    background-color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 2px black;
+}
+h1{
+    text-align: center;    
+}
+label{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.ad{
+    margin-top: 0px;
+}
+input{
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 200px;
+    height: 32px;
+
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:85px;
+    border-radius: 5px;
+    background-color: rgba(96, 96, 208, 0.796);
+    height: 30px;
+    width: 80px;
+
+}
+.admin a{
+    float: right;
+    padding-top: 15px;
+    color:rgb(0, 0, 83);
+}

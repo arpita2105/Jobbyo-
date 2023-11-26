@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="applyjob.css">
+    <script>
+        function f1() {
+        const params = new URL(window.location.href).searchParams;
+        document.getElementById("tt").value = params.get('x');
+        }
+        window.onload = f1;
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="row" style="height: 7vh;"></div>
+    <div class="row">
+
+        <div class="col-md-4"></div>
+            <div class="col-md-5 apply">
+                <form action="/alyjob" method="post">
+                <center>
+                    <h2>Apply Jobs</h2>
+                </center>
+                <hr>
+                <label>Name :</label>
+                <br>
+                <input type="text" name="name">
+                <br><br>
+                <label>Job Title :</label>
+                <br>
+                <input type="text" name="jbttl" id="tt">
+                <br><br>
+                <label>Email Address :</label>
+                <br>
+                <input type="email" name="email_add">
+                <br><br>
+                <label>Mobile Number :</label>
+                <br>
+                <input type="number" name="mob">
+                <br><br>
+                <button>Apply</button>
+            </form>
+            </div>
+        <div class="col-md-3"></div>
+
+    </div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+.h-number{
+    background-color: rgb(207, 203, 203);
+}
+.number{
+   
+     text-align: center;
+font-size: 30px;    
+}
+.number h2{
+    text-decoration: underline 2px;
+}
+.number i{
+    padding-top: 15px;
+    color: red;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+
+}
+.line{
+    font-size: 17px;
+}
+.profile{
+    padding-bottom: 20px;
+    background:whitesmoke;
+
+}
+.profile img{
+    height:35vh;
+    width:180px;
+    border-radius: 50%;
+}
+.footer1 {
+    float: left;
+    background-color: rgb(41,39,39);
+}
+.footer1 img{
+    padding-top: 15%;
+    margin-left: 12%;
+    width: 90%;
+    height:168px;
+   
+}
+.footer1 i{
+    width: 10%;
+    font-size:27px;
+    margin-top:1%;
+    padding-left: 15%;
+    
+}
+.f1{
+    margin-top: 10px;
+}
+.f1 span {
+    
+    font-size: 20px;
+    color: bisque;
+
+}
+
+.f1 li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    line-height: 25px;
+    
+}
+
+.f1 li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: bisque;
+}
+.copy{
+    text-align: center;
+    color: white;
+    min-height:50px;
+    background-color: black;
+    padding-top: 10px;
+    text-transform: lowercase;
+} 

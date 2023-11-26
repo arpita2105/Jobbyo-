@@ -1,0 +1,70 @@
+
+input[type=text],[type=email],[type=number],[type=password], select, textarea{
+width:100%;
+padding: 12px;
+border:1px solid #ccc;
+border-radius:4px;
+resize: vertical;
+
+}
+label{
+    padding: 12px 12px 12px 2px;
+    display: inline-block;
+    color:white;
+}
+.container{
+    border-radius: 5px;
+
+    padding: 20px;
+}
+.col-md-3{
+    float:left;
+    width:25%;
+    margin-top: 6px;
+}
+.col-md-9{
+    float: left;
+    width:75%;
+    margin-top: 6px;
+}
+.col-md-4{
+    float:left;
+    width:44%;
+    margin-top: 6px;
+}
+.col-md-5{
+    float:left;
+    width:44%;
+    margin-top: 6px;
+}
+.col-md-1{
+    float:left;
+    width:25%;
+    margin-top: 6px;
+}
+#login{
+    float:right; 
+    background:rgb(37, 81, 239);
+    border:1px solid black;
+    color:antiquewhite;
+}
+#submit{
+    background:green;
+    border:1px solid grey;
+    color: antiquewhite;
+}
+#reset{
+    background:red;
+    border:1px solid grey;
+    color: antiquewhite;
+}
+
+.pwd{
+    position: relative;
+}
+.p-viewer{
+    z-index:9999;
+    position: absolute;
+    top: 30%;
+    right: 10px;
+}

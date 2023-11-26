@@ -1,0 +1,154 @@
+body{
+    background: linear-gradient(rgba(239,155,86,0.837),rgb(103,194,208),rgb(224,161,238));
+}
+/* navbar start */
+.navigationbar li a{
+    color:white;
+    font-size:15px;
+
+}
+/* navbar end */
+
+
+
+/* side bar start */
+.full-time-1{
+    
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 2px 2px rgb(10, 7, 7);
+    border-radius: 5px;
+    /* margin-left: 22px; */
+    /* margin-right: 20px; */
+    float: left;
+    max-height:100%;
+    
+    min-width: 20%;
+    background-color:rgb(226, 222, 222);
+}
+.f-t-1-h h4{
+    text-align: center;
+    font-size: 25px;
+    max-height: 100%;
+
+}
+   
+
+.full-time-1-1 li{
+    list-style: none;
+    line-height: 23px;
+    font-size: 14px;
+   
+}
+.full-time-1-1 li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+/* side bar end  */
+
+.work-1{
+    background-color:rgb(226, 222, 222);
+    /* height: 160px; */
+    max-height: 100%;
+    min-width: 98%;
+    margin-left: 1px;
+    box-shadow: 0px 2px 2px 2px black;
+    float: right;
+
+
+
+}
+.work-1 h5{
+    padding-left: 10px;
+    font-size:17px;
+    line-height: 15px;
+}
+.work-1 a{
+    padding-left: 10px;
+    font-size: 10px;
+    line-height: 15px;
+
+}
+.work-2 p{
+    margin-left: 20px;
+}
+.work-2 span{
+    font-size: 10px;
+    padding-left: 40px;
+
+}
+.work-1 p{
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left:10px;
+}
+.skill span{
+    padding-left: 2px;
+    font-size: 12px;
+}
+.skill button{
+    background-color: rgb(184, 197, 233);
+    min-width: 10%;
+    border-radius: 5px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+/* footer start here  */
+
+ .footer1 {
+    float: left;
+    background-color: rgb(41, 39, 39);
+}
+.footer1 img{
+    padding-top: 20%;
+    margin-left: 12%;
+    width: 60%;
+}
+.footer1 i{
+    width: 10%;
+    font-size: 20px;
+    margin-top: 10%;
+    padding-left: 15%;
+}
+.f1{
+    margin-top: 10px;
+   color: bisque;
+}
+.f1 span {
+    
+    font-size: 20px;
+    color:bisque;
+
+}
+
+.f1 li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    line-height: 25px;
+    color:bisque;
+}
+
+.f1 li a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 13px;
+}
+
+.copy{
+    text-align: center;
+    color: white;
+    min-height:50px;
+    background-color: black;
+    padding-top: 10px;
+    text-transform: lowercase;
+} 
+/* footer close here */
